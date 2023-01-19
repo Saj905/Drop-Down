@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drop- Down</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+       <script src="index.js"></script>
+</head>
+
+<body>
+    <div class="menu-bar">
+        <div class="search-bar">
+            <input type="search" name="search" class="search-item" id="search">
+            <button type="button" class="btn btn-search"><i class="fa fa-search"></i></button>
+        </div>
+        <ul>
+            <li class="active"><i class="fa fa-home"></i><a href="#">Home</a></li>
+            <li><i class="fa fa-user"></i><a href="#">About Us</a>
+            <div class="sub-menu-1">
+                <ul>
+                    <li><a href="">Mission</a></li>
+                    <li><a href="">Vision</a></li>
+                    <li><a href="">Team</a></li>
+                </ul>
+            </div>
+            </li>
+            <li><i class="fa fa-clone"></i><a href="#">Services</a>
+                <div class="sub-menu-1">
+                    <ul>
+                        <li><a href="">Web Design</a></li>
+                        <li class="hover-me"><a href="">Marketing</a><i class="fa fa-angle-right"></i>
+                        <div class="sub-menu-2">
+                            <ul>
+                                <li><a href="">SEO</a></li>
+                                <li><a href="">Social Media</a></li>
+                                <li><a href="">Email Marketing</a></li>
+                            </ul>
+                        </div>
+                        </li>
+                        <li class="hover-me"><a href="">Mobile App</a><i class="fa fa-angle-right"></i>
+                        <div class="sub-menu-2">
+                            <ul>
+                                <li><a href="">Android App</a></li>
+                                <li><a href="">ios App</a></li>
+                                <li><a href="">Ionic App</a></li>
+                                <li><a href="">Flater App</a></li>
+                                <li><a href="">Unity App</a></li>
+                            </ul>
+                        </div>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li><i class="fa fa-users"></i><a href="#">Clients</a>
+                <div class="sub-menu-1">
+                    <ul>
+                        <li><a href="">State</a></li>
+                        <li class="hover-me"><a href="">Center</a><i class="fa fa-angle-right"></i>
+                        <div class="sub-menu-2">
+                            <ul>
+                                <li><a href="">State Wise</a></li>
+                                <li><a href="">District Wise</a></li>
+                                <li><a href="">City Wise</a></li>
+                            </ul>
+                        </div>
+                        </li>
+                        <li class="hover-me"><a href="">International</a><i class="fa fa-angle-right"></i>
+                        <div class="sub-menu-2">
+                            <ul>
+                                <li><a href="">Country Wise</a></li>
+                                <li><a href="">Specific Wise</a></li>
+                                <li><a href="">City Wise</a></li>
+                            </ul>
+                        </div>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li><i class="fa fa-phone"></i><a href="#">Contact</a></li>
+        </ul>
+        </div>
+        
+
+
+<!--         
+<script>
+        // Palindrome Checker
+
+        function Palindrome(str) {
+            str = str.replace(/\w|_/g, "").toLowerCase();
+            let end = str.length - 1;
+        
+            for (let i = 0; i < str.length/2; i++) {
+                if (str[end] !== str[i]) {
+                    return false
+                }
+                end--;
+            }
+            return true;
+        }
+        
+        
+        console.log(Palindrome("eyyeh"));
+
+</script>
+<script src="index.js"></script> -->
+
+</body>
+
+</html>
